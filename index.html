@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .example {
+            color: lightseagreen;
+        }
+    </style>
 </head>
 <body>
     <!-- implement SVG -->
@@ -17,19 +22,39 @@
 
     <nav class="menue">
         <ul>
-            <li><a href="index.html">Home Page</a></li>
-            <li><a href="views/two.html">Second Page</a></li>
-            <li><a href="views/three.html">Third Page</a></li>
+            <li><a href="./index.html">Home Page</a></li>
+            <li><a href="./views/two.html">Second Page</a></li>
+            <li><a href="./views/three.html">Third Page</a></li>
         </ul>
     </nav>
 
     <h1>Assignment 5</h1>
+
+
     <h2 class="css-question">How to Apply CSS to HTML</h2>
-    <p class="css-question">Info on how to include an external 
-        CSS file in an html file w/ example</p> 
-    <h2 class="js-question">How to Use Javascript in a Webpage</h2>
-    <p class="js-question">Info on how to link an external 
-        Javascript file w/ an example</p>
+    <p class="css-question">To apply CSS in an HTML file,
+        use the link element inside the head section of the HTML page
+        and include a reference to the external style sheet.
+    </p>
+    <p>For example:</p> 
+    <pre>&lt;head&gt;<br>&lt;link rel="stylesheet" href="mystyles.css"<br>&lt;/head&gt;</pre>
+
+
+    <h2 class="js-question">How to Use JavaScript in a Webpage</h2>
+    <p class="js-question">To link an external JavaScript file, 
+        use the script element with a source attribute pointing to the script file.
+    </p>
+    <p>For example:</p>
+    <pre>&lt;script src="path/to/my/script.js"&gt;&lt;/script&gt;</pre>
+    <p class="js-question">To write JavaScript within HTML, 
+        you can write script code betweeen script tags instead of using a source attribute.
+    </p>
+    <p>For example:</p>
+    <pre>&lt;script&gt;
+    window.addEventListener("load", () => {
+        console.log("This function is executed once the page is fully loaded");
+    });
+&lt;/script&gt;</pre>
 
 </body>
 </html>
