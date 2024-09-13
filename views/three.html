@@ -15,5 +15,26 @@
     </nav>
     <h1>SVG Animation is easy!</h1>
 
+    <svg width="100%" height="300" version="1.1"
+     xmlns="http://www.w3.org/2000/svg">
+        <path d="M 50,170 
+        Q 100,70 150,140
+        Q 200,70 250,170
+        L 150, 270 Z" fill="none" stroke="purple" />
+
+
+        <g>
+            <image href="../resources/holo_cinna.png" width="150" height="200" transform="translate(-75,-100)" />
+            <animateMotion
+              dur="5s"
+              repeatCount="indefinite"
+              path="M 50,170 
+              Q 100,70 150,140
+              Q 200,70 250,170
+              L 150, 270 Z" />
+        </g>
+
+    </svg>
+
 </body>
 </html>
