@@ -5,7 +5,7 @@
 <g>
             <rect x="10" y="10" width="200" height="200" fill="none" stroke="gray" stroke-width="3" />
 
-            <circle r="5" fill="blue">
+            <circle r="5" fill="red">
                 <animateMotion dur="10s" repeatCount="indefinite" path=
                 "M 10, 10
                     L 210,10
