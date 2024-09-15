@@ -3,61 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home Page</title>
     <style>
         .example {
             color: lightseagreen;
         }
     </style>
+
+    <link rel="icon" href="./resources/favicon.svg" type="image/svg+xml">
+
 </head>
 <body>
-    <!-- implement SVG -->
 
-    <svg width="100%" height="300" version="1.1"
-     xmlns="http://www.w3.org/2000/svg">
-
-        <rect width="100%" height="100%" fill="pink"/>
-        <circle cx="50%" cy="50%" r="300" fill="plum" stroke="none" opacity="0.6" />
-
-        <circle cx="60%" cy="50%" r="300" fill="lightpink" stroke="none" opacity="0.6"/>
-        <circle cx="40%" cy="50%" r="300" fill="lightpink" stroke="none" opacity="0.6"/>
-
-        <text x="50%" y="150" fill="hotpink" font-size="55" text-anchor="middle">Assignment 2 Site</text>
-
-        <image x="150" y="100" transform="scale(0.5)" href="resources/holo_cinna.png"/>
-
-        <!-- <path d="M 50,200 
-        Q 100,150 150,200
-        Q 200,250 250,200
-        " stroke="black"/> -->
-
-        <polygon points="15,15  20,25 15,35 10,25"
-        fill="purple" stroke="none" opacity="0.6"/>
-
-        <polygon points="30,20 20,40 30,60 40,40"
-        fill="purple" stroke="none" opacity="0.6"/>
-
-    </svg>
+    <object type="image/svg+xml" width="100%" height="300" data="resources/banner.svg"></object>
 
     <nav class="menue">
         <ul>
             <li><a href="./index.html">Home Page</a></li>
-            <li><a href="./views/two.html">Second Page</a></li>
-            <li><a href="./views/three.html">Third Page</a></li>
+            <li><a href="./views/two.html">Favorite Sources</a></li>
+            <li><a href="./views/three.html">SVG Animations</a></li>
         </ul>
     </nav>
 
     <h1>Assignment 5</h1>
 
-
     <h2 class="css-question">How to Apply CSS to HTML</h2>
-    <p class="css-question">To apply CSS in an HTML file,
+    <p class="css-question">To apply an external CSS file in an HTML file,
         use the link element inside the head section of the HTML page
         and include a reference to the external style sheet.
     </p>
     <p>For example:</p> 
     <pre>&lt;head&gt;<br>&lt;link rel="stylesheet" href="mystyles.css"<br>&lt;/head&gt;</pre>
-
 
     <h2 class="js-question">How to Use JavaScript in a Webpage</h2>
     <p class="js-question">To link an external JavaScript file, 

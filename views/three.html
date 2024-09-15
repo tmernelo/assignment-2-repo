@@ -3,37 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SVG Animations</title>
+
+    <link rel="icon" href="../resources/favicon.svg" type="image/svg+xml">
+
 </head>
 <body>
+
+    <object type="image/svg+xml" width="100%" height="300" data="../resources/banner.svg"></object>
+
     <nav class="menue">
         <ul>
             <li><a href="../index.html">Home Page</a></li>
-            <li><a href="two.html">Second Page</a></li>
-            <li><a href="three.html">Third Page</a></li>
+            <li><a href="two.html">Favorite Sources</a></li>
+            <li><a href="three.html">SVG Animations</a></li>
         </ul>
     </nav>
     <h1>SVG Animation is easy!</h1>
-
-    <svg width="100%" height="300" version="1.1"
-     xmlns="http://www.w3.org/2000/svg">
-        <path d="M 50,120 
-        Q 100,30 150,100
-        Q 200,30 250,120
-        L 150, 220 Z" fill="lightcyan" stroke="lightblue" stroke-width="5" stroke-linejoin="round"/>
-
-        <g>
-            <image href="../resources/holo_cinna.png" width="150" height="200" transform="translate(-75,-100)" />
-            <animateMotion
-              dur="5s"
-              repeatCount="indefinite"
-              path="M 50,120 
-              Q 100,30 150,100
-              Q 200,30 250,120
-              L 150, 220 Z" />
-        </g>
-
-    </svg>
-
+    <img
+        src="../resources/page-three.svg"
+        alt="triangle with all three sides equal"
+        height="300"
+        width="300" />
+    <object type="image/svg+xml" data="../resources/page-three2.svg"></object>
 </body>
 </html>

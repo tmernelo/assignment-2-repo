@@ -1,0 +1,20 @@
+<svg width="100%" height="300" version="1.1"
+     xmlns="http://www.w3.org/2000/svg">
+      
+        <path d="M 50,90 
+        Q 100,10 150,80
+        Q 200,10 250,90
+        L 150, 200 Z" fill="lightcyan" stroke="lightblue" stroke-width="5" stroke-linejoin="round"/>
+
+        <g>
+        <image href="holo_cinna.png" width="150" height="200" transform="translate(-75,-100)" />
+            <animateMotion
+              dur="5s"
+              repeatCount="indefinite"
+              path="M 50,90 
+                    Q 100,10 150,80
+                    Q 200,10 250,90
+                    L 150, 200 Z" />
+        </g>
+
+</svg>
