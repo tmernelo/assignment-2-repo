@@ -7,7 +7,7 @@
         <circle cx="60%" cy="50%" r="300" fill="lightpink" stroke="none" opacity="0.6"/>
         <circle cx="40%" cy="50%" r="300" fill="lightpink" stroke="none" opacity="0.6"/>
 
-        <text x="50%" y="150" fill="hotpink" font-size="55" text-anchor="middle">Assignment 2 Site</text>
+        <text x="50%" y="150" fill="hotpink" font-size="55" text-anchor="middle">Welcome to my Website!</text>
 
         <image x="50%" y="30%" transform="scale(0.3)" href="holo_cinna.png"/>
 
